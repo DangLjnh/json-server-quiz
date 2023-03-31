@@ -1,9 +1,548 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "questions": [
+    {
+      "id": 1,
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Who is the main antagonist in the Portal franchise?",
+      "correct_answer": "GLaDOS",
+      "incorrect_answers": ["Chell", "Wheatley", "Rick"],
+      "score": 1
+    },
+    {
+      "id": 2,
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What name represents the letter &quot;M&quot; in the NATO phonetic alphabet?",
+      "correct_answer": "Mike",
+      "incorrect_answers": ["Matthew", "Mark", "Max"],
+      "score": 2
+    },
+    {
+      "id": 3,
+      "category": "Entertainment: Books",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Who wrote the 1967 horror novel &quot;Rosemary&#039;s Baby&quot;?",
+      "correct_answer": "Ira Levin",
+      "incorrect_answers": ["Stephen King", "Robert Bloch", "Mary Shelley"],
+      "score": 2
+    },
+    {
+      "id": 4,
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Just Cause 2 was mainly set in what fictional Southeast Asian island country?",
+      "correct_answer": "Panau",
+      "incorrect_answers": ["Davao", "Macau", "Palau"],
+      "score": 2
+    },
+    {
+      "id": 5,
+      "category": "Entertainment: Books",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "&quot;Green Eggs And Ham&quot; is a book by which author?",
+      "correct_answer": "Dr. Seuss",
+      "incorrect_answers": ["Beatrix Potter", "Roald Dahl", "A.A. Milne"],
+      "score": 1
+    },
+    {
+      "id": 6,
+      "category": "Entertainment: Japanese Anime & Manga",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which anime heavily features music from the genre &quot;Eurobeat&quot;?",
+      "correct_answer": "Initial D",
+      "incorrect_answers": ["Wangan Midnight", "Kino no Tabi", "Cowboy Bebop"],
+      "score": 1
+    },
+    {
+      "id": 7,
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which essential condiment is also known as Japanese horseradish?",
+      "correct_answer": "Wasabi ",
+      "incorrect_answers": ["Mentsuyu", "Karashi", "Ponzu"],
+      "score": 2
+    },
+    {
+      "id": 8,
+      "category": "Geography",
+      "type": "boolean",
+      "difficulty": "medium",
+      "question": "Israel is 7 hours ahead of New York.",
+      "correct_answer": "True",
+      "incorrect_answers": ["False"],
+      "score": 2
+    },
+    {
+      "id": 9,
+      "category": "Science & Nature",
+      "type": "boolean",
+      "difficulty": "medium",
+      "question": "Shrimp can swim backwards.",
+      "correct_answer": "True",
+      "incorrect_answers": ["False"],
+      "score": 2
+    },
+    {
+      "id": 10,
+      "category": "Science & Nature",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "The &quot;Tibia&quot; is found in which part of the body?",
+      "correct_answer": "Leg",
+      "incorrect_answers": ["Arm", "Hand", "Head"],
+      "score": 2
+    },
+    {
+      "id": 11,
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In the War of the Pacific (1879 - 1883), Bolivia lost its access to the Pacific Ocean after being defeated by which South American country?",
+      "correct_answer": "Chile",
+      "incorrect_answers": ["Peru", "Brazil", "Argentina"],
+      "score": 2
+    },
+    {
+      "id": 12,
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In what year was the video game company Electronic Arts founded?",
+      "correct_answer": "1982",
+      "incorrect_answers": ["1999", "1981", "2005"],
+      "score": 2
+    },
+    {
+      "id": 13,
+      "category": "Entertainment: Japanese Anime & Manga",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "The main protagonist of the fifth part of JoJo&#039;s Bizarre Adventure is which of the following?",
+      "correct_answer": "Giorno Giovanna",
+      "incorrect_answers": ["Guido Mista", "Jonathan Joestar", "Joey JoJo"],
+      "score": 2
+    },
+    {
+      "id": 14,
+      "category": "Entertainment: Music",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Which of these songs is NOT included in the Suicide Squad OST?",
+      "correct_answer": "Skies on Fire - AC/DC",
+      "incorrect_answers": [
+        "Heathens - Twenty One Pilots",
+        "Without Me - Eminem",
+        "Fortunate Son - Creedence Clearwater Revival"
+      ],
+      "score": 3
+    },
+    {
+      "id": 15,
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "In Dota 2, Wraith King was previously known as...",
+      "correct_answer": "Skeleton King",
+      "incorrect_answers": ["Reaper King", "Skull King", "Hell King"],
+      "score": 1
+    },
+    {
+      "id": 16,
+      "category": "Entertainment: Music",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What was the title of Sakamoto Kyu&#039;s song &quot;Ue o Muite Arukou&quot; (I Look Up As I Walk) changed to in the United States?",
+      "correct_answer": "Sukiyaki",
+      "incorrect_answers": ["Takoyaki", "Sushi", "Oden"],
+      "score": 2
+    },
+    {
+      "id": 17,
+      "category": "Science & Nature",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "The core of the Sun can reach which temperature?",
+      "correct_answer": "27&deg; Million F (15&deg; Million C)",
+      "incorrect_answers": [
+        "938,000&deg; F (521093.3&deg; C)",
+        "8&deg; Billion F (&deg;4.4 Billion C)",
+        "Absolute Zero (Both F and C)"
+      ],
+      "score": 3
+    },
+    {
+      "id": 18,
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In Monster Hunter Generations, which of the following monsters are a part of the &quot;Fated Four&quot;?",
+      "correct_answer": "Astalos",
+      "incorrect_answers": ["Gore Magala", "Malfestio", "Arzuros"],
+      "score": 2
+    },
+    {
+      "id": 19,
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "In Animal Crossing: New Leaf, which of these paintings from Redd&#039;s Art Gallery is always genuine?",
+      "correct_answer": "Warm Painting",
+      "incorrect_answers": [
+        "Jolly Painting",
+        "Neutral Painting",
+        "Wistful Painting"
+      ],
+      "score": 3
+    },
+    {
+      "id": 20,
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What is the maximum HP in Terraria?",
+      "correct_answer": "500",
+      "incorrect_answers": ["400", "1000", "100"],
+      "score": 1
+    },
+    {
+      "id": 21,
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What is the oldest team in the NFL?",
+      "correct_answer": "Arizona Cardinals",
+      "incorrect_answers": [
+        "Chicago Bears",
+        "Green Bay Packers",
+        "New York Giants"
+      ],
+      "score": 2
+    },
+    {
+      "id": 22,
+      "category": "Entertainment: Music",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Who wrote the song &quot;You Know You Like It&quot;?",
+      "correct_answer": "AlunaGeorge",
+      "incorrect_answers": ["DJ Snake", "Steve Aoki", "Major Lazer"],
+      "score": 3
+    },
+    {
+      "id": 23,
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which one of these was not a member of the Fiendish Five in the game Sly Cooper and the Thievius Raccoonus?",
+      "correct_answer": "Dimitri Lousteau",
+      "incorrect_answers": ["Mz. Ruby", "Muggshot", "Clockwerk"],
+      "score": 2
+    },
+    {
+      "id": 24,
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "The United States Army Air Corps became the United States Air Force on what date?",
+      "correct_answer": "September 18, 1947",
+      "incorrect_answers": [
+        "December 14, 1946",
+        "October 27, 1945",
+        "November 08, 1944"
+      ],
+      "score": 2
+    },
+    {
+      "id": 25,
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "When did the website &quot;Facebook&quot; launch?",
+      "correct_answer": "2004",
+      "incorrect_answers": ["2005", "2003", "2006"],
+      "score": 2
+    },
+    {
+      "id": 26,
+      "category": "Entertainment: Music",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which member of &quot;The Beatles&quot; narrated episodes of &quot;Thomas the Tank Engine&quot;?",
+      "correct_answer": "Ringo Starr",
+      "incorrect_answers": ["George Harrison", "John Lennon", "Paul McCartney"],
+      "score": 2
+    },
+    {
+      "id": 27,
+      "category": "Entertainment: Japanese Anime & Manga",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "In Ms. Kobayashi&#039;s Dragon Maid, who is Kobayashi&#039;s maid?",
+      "correct_answer": "Tohru",
+      "incorrect_answers": ["Lucoa", "Kanna", "Elma"],
+      "score": 1
+    },
+    {
+      "id": 28,
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "How many stations does the Central Line have on the London Underground?",
+      "correct_answer": "49",
+      "incorrect_answers": ["51", "43", "47"],
+      "score": 3
+    },
+    {
+      "id": 29,
+      "category": "Mythology",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What mythology did the god &quot;Apollo&quot; come from?",
+      "correct_answer": "Greek and Roman",
+      "incorrect_answers": [
+        "Roman and Spanish",
+        "Greek and Chinese",
+        "Greek, Roman and Norse"
+      ],
+      "score": 1
+    },
+    {
+      "id": 30,
+      "category": "Celebrities",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Who is &quot;James Rolfe&quot; better known as?",
+      "correct_answer": "The Angry Video Game Nerd",
+      "incorrect_answers": ["TotalBiscuit", "PeanutButterGamer", "PewDiePie"],
+      "score": 2
+    },
+    {
+      "id": 31,
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "The Khajiit are a race of cat-like creatures from which epic series of role-playing games, set across the land of Tamriel?",
+      "correct_answer": "The Elder Scrolls",
+      "incorrect_answers": [
+        "Lord of the Rings",
+        "The Witcher",
+        "Neverwinter Nights"
+      ],
+      "score": 1
+    },
+    {
+      "id": 32,
+      "category": "Entertainment: Comics",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "The stuffed tiger in Calvin and Hobbes is named after what philosopher?",
+      "correct_answer": "Thomas Hobbes",
+      "incorrect_answers": ["David Hobbes", "John Hobbes", "Nathaniel Hobbes"],
+      "score": 2
+    },
+    {
+      "id": 33,
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which country, not including Japan, has the most people of japanese decent?",
+      "correct_answer": "Brazil",
+      "incorrect_answers": ["China", "South Korea", "United States of America"],
+      "score": 1
+    },
+    {
+      "id": 34,
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In the &quot;S.T.A.L.K.E.R.&quot; series, which of these items can&#039;t be used to lower the player&#039;s accumulated radiation?",
+      "correct_answer": "Radioprotectant",
+      "incorrect_answers": ["Anti-rad", "Medkit", "Vodka"],
+      "score": 2
+    },
+    {
+      "id": 35,
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "In the original Spyro game who is the first villain?",
+      "correct_answer": "Gnasty Gnorc",
+      "incorrect_answers": ["Ripto", "Sorceress", "Cynder"],
+      "score": 1
+    },
+    {
+      "id": 36,
+      "category": "Entertainment: Film",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Which sci-fi cult films plot concerns aliens attempting to prevent humans from creating a doomsday weapon?",
+      "correct_answer": "Plan 9 from Outer Space",
+      "incorrect_answers": [
+        "The Man from Planet X",
+        "It Came from Outer Space",
+        "The Day The Earth Stood Still"
+      ],
+      "score": 3
+    },
+    {
+      "id": 37,
+      "category": "Science & Nature",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "A plant that has a life cycle for more than a year is known as an annual.",
+      "correct_answer": "False",
+      "incorrect_answers": ["True"],
+      "score": 1
+    },
+    {
+      "id": 38,
+      "category": "Entertainment: Music",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Rick Astley&#039;s hit song &quot;Never Gonna Give You Up&quot; was released in what year?",
+      "correct_answer": "1987",
+      "incorrect_answers": ["1985", "1986", "1988"],
+      "score": 2
+    },
+    {
+      "id": 39,
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In &quot;Kingdom Hearts&quot;, who abducts Jasmine in the Lamp Chamber?",
+      "correct_answer": "Riku",
+      "incorrect_answers": ["Riku Replica", "Xaldin", "Captain Hook"],
+      "score": 2
+    },
+    {
+      "id": 40,
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which Louis was known as &#039;The Sun King of France&#039;?",
+      "correct_answer": "Louis XIV",
+      "incorrect_answers": ["Louis XIII", "Louis XV", "Louis XVI"],
+      "score": 2
+    },
+    {
+      "id": 41,
+      "category": "History",
+      "type": "boolean",
+      "difficulty": "medium",
+      "question": "Franz Joseph I was the last emperor of Austria.",
+      "correct_answer": "False",
+      "incorrect_answers": ["True"],
+      "score": 2
+    },
+    {
+      "id": 42,
+      "category": "Science & Nature",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "What is the most potent toxin known?",
+      "correct_answer": "Botulinum toxin",
+      "incorrect_answers": ["Ricin", "Cyanide", "Asbestos"],
+      "score": 3
+    },
+    {
+      "id": 43,
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Which of these theoretical phycisists first predicted the existence of antimatter?",
+      "correct_answer": "Paul Dirac",
+      "incorrect_answers": [
+        "Niels Bohr",
+        "Albert Einstein",
+        "Werner Heisenberg"
+      ],
+      "score": 3
+    },
+    {
+      "id": 44,
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What vehicle in PUBG has the highest top speed?",
+      "correct_answer": "Motorcycle",
+      "incorrect_answers": ["PG-117", "Dacia", "Buggy"],
+      "score": 1
+    },
+    {
+      "id": 45,
+      "category": "Entertainment: Film",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which of the following actors does not play a role in the movie &quot;The Usual Suspects?&quot;",
+      "correct_answer": "Steve Buscemi",
+      "incorrect_answers": [
+        "Kevin Spacey",
+        "Benicio Del Toro",
+        "Gabriel Byrne"
+      ],
+      "score": 2
+    },
+    {
+      "id": 46,
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "How many partners can you obtain in Paper Mario: The Thousand-Year Door?",
+      "correct_answer": "7",
+      "incorrect_answers": ["6", "9", "10"],
+      "score": 3
+    },
+    {
+      "id": 47,
+      "category": "Entertainment: Film",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Which singer is portrayed by Bruce Campbell in the 2002 film &#039;Bubba Ho-Tep&#039;?",
+      "correct_answer": "Elvis Presley",
+      "incorrect_answers": ["Johnny Cash", "Hank Williams, Sr.", "Buddy Holly"],
+      "score": 3
+    },
+    {
+      "id": 48,
+      "category": "Science: Mathematics",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In the complex plane, multiplying a given function by i rotates it anti-clockwise by how many degrees?",
+      "correct_answer": "90",
+      "incorrect_answers": ["180", "270", "0"],
+      "score": 2
+    },
+    {
+      "id": 49,
+      "category": "Science & Nature",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Who discovered the Law of Gravity?",
+      "correct_answer": "Sir Isaac Newton",
+      "incorrect_answers": [
+        "Galileo Galilei",
+        "Charles Darwin",
+        "Albert Einstein"
+      ],
+      "score": 1
+    },
+    {
+      "id": 50,
+      "category": "Entertainment: Video Games",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "The shotgun appears in every numbered Resident Evil game.",
+      "correct_answer": "True",
+      "incorrect_answers": ["False"],
+      "score": 1
+    }
+  ]
 }
