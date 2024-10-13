@@ -14,7 +14,7 @@
     "title": "Bluetooth Earbuds",
     "description": "Wireless Bluetooth earbuds with noise-cancellation and touch controls.",
     "price": 99.99,
-    "media": ["earbuds_front.jpg", "earbuds_side.jpg"],
+    "media": ["https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/airpods-4-hero-select-202409_FMT_WHH?wid=752&hei=636&fmt=jpeg&qlt=90&.v=1725502960389"],
     "tags": ["electronics", "audio", "wireless"],
     "product_type": "Earbuds"
   },
@@ -23,7 +23,7 @@
     "title": "Digital Camera",
     "description": "Compact digital camera with high-resolution sensor and optical zoom.",
     "price": 299,
-    "media": ["camera_front.jpg", "camera_back.jpg"],
+    "media": ["https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/airpods-4-hero-select-202409_FMT_WHH?wid=752&hei=636&fmt=jpeg&qlt=90&.v=1725502960389"],
     "tags": ["electronics", "photography", "camera"],
     "product_type": "Camera"
   },
