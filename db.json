@@ -544,5 +544,193 @@
       "incorrect_answers": ["False"],
       "score": 1
     }
+  ],
+  "products": [
+    {
+      "id": "6",
+      "title": "Smartwatch",
+      "description": "Smartwatch with fitness tracking and heart rate monitoring features.",
+      "price": 199.99,
+      "media": [
+        "smartwatch_front.jpg",
+        "smartwatch_side.jpg"
+      ],
+      "tags": [
+        "electronics",
+        "wearable",
+        "smartwatch"
+      ],
+      "product_type": "Wearable"
+    },
+    {
+      "id": "7",
+      "title": "Sunglasses",
+      "description": "Designer sunglasses with UV protection and polarized lenses.",
+      "price": 99,
+      "media": [
+        "sunglasses.jpg"
+      ],
+      "tags": [
+        "accessories",
+        "eyewear",
+        "sunglasses"
+      ],
+      "product_type": "Eyewear"
+    },
+    {
+      "id": "8",
+      "title": "Backpack",
+      "description": "Durable backpack with water-resistant material and adjustable straps.",
+      "price": 75,
+      "media": [
+        "backpack_front.jpg",
+        "backpack_side.jpg"
+      ],
+      "tags": [
+        "accessories",
+        "bags",
+        "backpack"
+      ],
+      "product_type": "Bag"
+    },
+    {
+      "id": "9",
+      "title": "Fitness Tracker",
+      "description": "Fitness tracker with step counting and sleep monitoring features.",
+      "price": 49.99,
+      "media": [
+        "fitness_tracker_front.jpg",
+        "fitness_tracker_side.jpg"
+      ],
+      "tags": [
+        "electronics",
+        "wearable",
+        "fitness"
+      ],
+      "product_type": "Wearable"
+    },
+    {
+      "id": "10",
+      "title": "Gaming Mouse",
+      "description": "High-performance gaming mouse with customizable RGB lighting.",
+      "price": 69.99,
+      "media": [
+        "gaming_mouse_front.jpg",
+        "gaming_mouse_side.jpg"
+      ],
+      "tags": [
+        "electronics",
+        "gaming",
+        "mouse"
+      ],
+      "product_type": "Mouse"
+    },
+    {
+      "id": "11",
+      "title": "Coffee Maker",
+      "description": "Automatic coffee maker with programmable brewing options.",
+      "price": 129,
+      "media": [
+        "coffee_maker_front.jpg",
+        "coffee_maker_side.jpg"
+      ],
+      "tags": [
+        "home",
+        "kitchen",
+        "coffee"
+      ],
+      "product_type": "Appliance"
+    },
+    {
+      "id": "12",
+      "title": "Bluetooth Earbuds",
+      "description": "Wireless Bluetooth earbuds with noise-cancellation and touch controls.",
+      "price": 99.99,
+      "media": [
+        "earbuds_front.jpg",
+        "earbuds_side.jpg"
+      ],
+      "tags": [
+        "electronics",
+        "audio",
+        "wireless"
+      ],
+      "product_type": "Earbuds"
+    },
+    {
+      "id": "13",
+      "title": "Digital Camera",
+      "description": "Compact digital camera with high-resolution sensor and optical zoom.",
+      "price": 299,
+      "media": [
+        "camera_front.jpg",
+        "camera_back.jpg"
+      ],
+      "tags": [
+        "electronics",
+        "photography",
+        "camera"
+      ],
+      "product_type": "Camera"
+    },
+    {
+      "title": "Iphone 16 pro max",
+      "description": "<p><strong>Iphone 16 pro max</strong></p>",
+      "price": 1199,
+      "media": [
+        "https://res.cloudinary.com/drgcxsgzc/image/upload/v1728786607/vonc2pgiq4igifrpugrn.jpg",
+        "https://res.cloudinary.com/drgcxsgzc/image/upload/v1728793713/palszhydepkgxradjthw.jpg"
+      ],
+      "product_type": "Mobile",
+      "tags": [
+        "mobile",
+        "smartphone"
+      ],
+      "id": "ba5b"
+    },
+    {
+      "id": "354c",
+      "title": "Wireless headphone",
+      "description": "<p><span style=\"background-color: rgb(250, 250, 250);\">Wireless Headphones</span></p>",
+      "price": 999,
+      "media": [
+        "https://res.cloudinary.com/drgcxsgzc/image/upload/v1728786748/ge62uqgqjts3emgg1mra.webp"
+      ],
+      "product_type": "Headphones",
+      "tags": [
+        "electronics",
+        "audio",
+        "wireless"
+      ]
+    },
+    {
+      "title": "Iphone 16 pro",
+      "description": "<p><img src=\"https://res.cloudinary.com/drgcxsgzc/image/upload/v1728795924/q60vuaaehpxffei7xsdd.jpg\"></p><p><strong>iphone 16 pro max</strong></p>",
+      "price": 9999,
+      "media": [
+        "https://res.cloudinary.com/drgcxsgzc/image/upload/v1728795974/vwpbglh5hrajeklrrcdc.jpg"
+      ],
+      "product_type": "Camera",
+      "tags": [
+        "smartwatch",
+        "accessories",
+        "eyewear",
+        "backpack"
+      ],
+      "id": "5a69"
+    },
+    {
+      "id": "9509",
+      "title": "Shirt",
+      "description": "<p>T-shirt</p><p><img src=\"https://res.cloudinary.com/drgcxsgzc/image/upload/v1728797409/lein7qj4j8m355tzdjzu.webp\">222</p>",
+      "price": 2222,
+      "media": [
+        "https://res.cloudinary.com/drgcxsgzc/image/upload/v1728797422/ttszvjdngvvhmk6kg2zc.webp"
+      ],
+      "product_type": "Appliance",
+      "tags": [
+        "sunglasses"
+      ]
+    }
   ]
 }
